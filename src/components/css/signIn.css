@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 16px;
+  }
+  .containerSignUp {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    color: #fff;
+  }
+  .cardContentSignIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5e57c3;
+    color: white;
+    height: 100%;
+    padding: 48px 57px !important;
+  }
+  
+  .cardImage {
+    text-align: center;
+  }
+  
+  .form {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+  
+    .signInButton{
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .signInButton:hover {
+    background-color: #ccc; 
+    border-color: rgba(255,255,255,.1);
+  }
+  
+  .signInButton:active {
+    background-color: #999; 
+  }
+  /* SignIn.css */
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5e57c3;
+    color: white;
+   
+    padding: 57px !important;
+  }
+  
+  .cardImage {
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+  .signinImage {
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+    display: block; 
+  }
+  .MuiTypography-root {
+    text-align: center;
+  }
+  .username{
+    color: #ffff;
+    border-color: rgba(255,255,255,.1);
+    border-radius: "50px";
+    background-color: rgba(255,255,255,.1);
+  }
+  .password{
+    color: #ffff;
+    border: transparent;
+    border-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.1);
+  }
+  .email{
+    color: #ffff;
+    border: transparent;
+    border-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.1);
+  }
+  .MuiInputBase-input-MuiOutlinedInput-input{
+    color: #ffff;
+  }
+  .MuiFormHelperText-root.Mui-error {
+    color: #ffff !important;
+}
+.MuiInputBase-input {
+  color: #ffff !important;
+}
+.MuiCard-root {
+  border-radius: 12px !important;
+}
+
+.checkbox {
+  padding: 4px 0px !important;
+  margin: 0px !important;
+}
