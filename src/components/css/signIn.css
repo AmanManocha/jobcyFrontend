@@ -71,10 +71,13 @@
     text-align: center;
   }
   .username{
-    color: #ffff;
+    color: #ffff !important;
     border-color: rgba(255,255,255,.1);
     border-radius: "50px";
     background-color: rgba(255,255,255,.1);
+  }
+  .username .MuiInputBase-input{
+    color: #ffff !important;
   }
   .password{
     color: #ffff;
@@ -82,21 +85,18 @@
     border-color: rgba(255,255,255,.1);
     background-color: rgba(255,255,255,.1);
   }
+  .password .MuiInputBase-input{
+    color: #ffff !important;
+  }
   .email{
     color: #ffff;
     border: transparent;
     border-color: rgba(255,255,255,.1);
     background-color: rgba(255,255,255,.1);
   }
-  .MuiInputBase-input-MuiOutlinedInput-input{
-    color: #ffff;
-  }
-  .MuiFormHelperText-root.Mui-error {
+  .email .MuiInputBase-input{
     color: #ffff !important;
-}
-.MuiInputBase-input {
-  color: #ffff !important;
-}
+  }
 .MuiCard-root {
   border-radius: 12px !important;
 }
@@ -105,3 +105,12 @@
   padding: 4px 0px !important;
   margin: 0px !important;
 }
+
+.Mui-focused .MuiOutlinedInput-notchedOutline  {
+      border-color: #5e57c3 !important;
+}
+
+
+/* .Mui-focused {
+  color: #5e57c3 !important;
+} */

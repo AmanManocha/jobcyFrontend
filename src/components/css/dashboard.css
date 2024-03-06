@@ -1,0 +1,33 @@
+.shape {
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .shape>svg {
+    width: 100%;
+    height: auto;
+  }
+  
+  .shape>svg path {
+    fill: white !important;
+  }
+  .Dashboard {
+        background-image: url(../../assets/images/page-title.png);
+        background-size: cover;
+        background-color: #5e57c3;
+        position: relative;
+        padding-top: 225px;
+        padding-bottom: 110px;
+        /* padding-left: 100px;
+        padding-right: 100px; */
+
+        background-position: center;
+  }
+  
+  .dashboardContainer{
+    width: 100%;
+    
+  }

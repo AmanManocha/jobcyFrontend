@@ -76,8 +76,10 @@ const SignIn = () => {
       const response = await API.post('signIn', formState.values);
       // Check if sign-in was successful
       if (response.status === 200) {
+        console.log('response', response)
         // Sign in successful, navigate to the dashboard
-        localStorage.setItem('accessToken', response.token)
+        localStorage.setItem('accessToken', response.data.token)
+        localStorage.setItem('username', response.data.username)
         navigate('/dashboard');
       } else {
         // error response from api
