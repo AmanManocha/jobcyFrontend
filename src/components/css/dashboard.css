@@ -12,7 +12,11 @@
   }
   
   .shape>svg path {
-    fill: white !important;
+    fill: #f1f0fe !important;
+  }
+  .dashboard-container {
+    width: 100%;
+    height: 100%;
   }
   .Dashboard {
         background-image: url(../../assets/images/page-title.png);

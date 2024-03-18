@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
 import { SignIn, SignUp, NotFound, Dashboard, ManageJobs, ManageJobForm } from './components';
 import './App.css';
 import AuthenticatedRoute from './components/services/AuthenticatedRoute';
+import UnauthenticatedRoute from './components/services/UnauthenticatedRoute';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path='/dashboard' element = {<AuthenticatedRoute><Dashboard/></AuthenticatedRoute>} />
           <Route path='/manageJobs' element = {<AuthenticatedRoute><ManageJobs/></AuthenticatedRoute>}/>
           <Route path='/manageJobForm' element = {<AuthenticatedRoute><ManageJobForm/></AuthenticatedRoute>}/>
+          <Route path='/manageJobForm/:jobId' element = {<AuthenticatedRoute><ManageJobForm/></AuthenticatedRoute>}/>
 					<Route path="*" element={<NotFound />} />
         </Routes>
       </Router>

@@ -11,15 +11,12 @@ import {
 import NavBar from './NavBar'
 import '../components/css/dashboard.css';
 
-const Dashboard = () => {
+const DashboardImage = () => {
   return (
     <>
       <NavBar/>
       <Box className="dashboard-container">
           
-        {/* <Grid item xs={12} lg={12} width={'100%'}> */}
-        {/* <Container className='dashboardContainer' maxWidth={'xl'}> */}
-        
 
         <div className="Dashboard">
           {/* <Box mb={4}> */}
@@ -34,16 +31,12 @@ const Dashboard = () => {
               </div>
           </div>
         </div>
-
-      
-      {/* </Container> */}
       <Container className='dashboardContainer' maxWidth={'xl'}>
       </Container>
-      {/* </Grid> */}
       </Box>
     </>
   );
 }
 
-export default Dashboard;
+export default DashboardImage;
 
